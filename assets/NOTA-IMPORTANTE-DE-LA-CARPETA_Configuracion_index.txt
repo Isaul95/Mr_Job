@@ -1,0 +1,68 @@
+NOTA: de la carpeta Configuracion_index:
+
+En esta carpeta estan todos los archivos que hacen del diseño de la primera pagina (index),
+el carrusel de la pagina, en esa hoja (pagina) estan todos los componentes que se usan
+(js, jquero, boostrapt se esta usando la V-3.)
+
+NO BORAR NINGUNA DE LAS EXTENSIONES/ARCHIVOS DENTRO DE DICHA CARPETA.
+
+
+
+
+
+
+
+
+
+RESPALDO DE LA PANTALLA QUE YA TENIAMOS  VISTA DE REGISTROOOO
+
+<div class=" colorfondo"> <!-- STAR ALL CONTENT -->
+             <!-- Main content -->
+            <section class="content">
+                <!-- Default box -->
+                <div class="box box-solid colorfondo">
+                    <div class="box-body">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 mt-5">
+      <h3 class="text-center">
+      <strong><font color="#D34787">REGISTRO DE USUARIOS DAR DE ALTA 2021--</font></strong>
+    </h3>
+      <hr style="background-color: black; color: black; height: 1px;">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+
+
+    <div class="container marketing">
+
+
+      <!-- START THE FEATURETTES -->
+
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, s ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+<img class="featurette-image img-responsive center-block" src="<?php echo base_url()?>assets/Configuracion_index/3.jpg" class="user-image" alt="User Image" width=420px heigth=820px link="">
+<!-- <img src="<?php echo base_url()?>assets/template/dist/img/Logo.png"  class="user-image" alt="User Image" width=420px heigth=420px link=""> -->
+        </div>
+      </div>
+
+<br>
+<br>
+<hr> <!-- Le da una linea sombreada para ver la divicion -->
+<br><br>
+  </div>
+  </div>
+  </div>
+
+  </div>
+  </div>
+  </section>
+  </div> <!-- /END ALL CONTENT -->

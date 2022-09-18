@@ -121,25 +121,28 @@ $('#btn_RegistroPago').DataTable( {
 <script src="<?php echo base_url();?>assets/template/dist/js/js_antigua/Rutas/rutas.js"></script>
 <!-- =============  utensilios  ISAUL ============== -->
 <script src="<?php echo base_url();?>assets/template/dist/js/js_antigua/Eventos/contratos.js"></script>
-
 <script src="<?php echo base_url();?>assets/template/dist/js/js_antigua/VentasCredito/VentaCredito.js"></script>
-
 <script src="<?php echo base_url();?>assets/template/dist/js/js_antigua/gastos/Gastos.js"></script>
-
 <script src="<?php echo base_url();?>assets/template/dist/js/js_antigua/Salones/Salones.js"></script>
 <script src="<?php echo base_url();?>assets/template/dist/js/js_antigua/Platillos/Platillos.js"></script>
-
 <script src="<?php echo base_url();?>assets/template/dist/js/js_antigua/Eventos/NuevoEvento.js"></script>
-
 <!-- Mobiliario -->
 <script src="<?php echo base_url();?>assets/template/dist/js/js_antigua/Mobiliario/Mobiliario.js"></script>
 <!-- Clientes -->
 <script src="<?php echo base_url();?>assets/template/dist/js/js_antigua/Clientes/Clientes.js"></script>
-
 <script src="<?php echo base_url();?>assets/template/dist/js/js_antigua//banquetes/Banquetes.js"></script>
-
 <!-- Email -->
 <script src="<?php echo base_url();?>assets/template/dist/js/js_antigua/Email/Email.js"></script>
-
 <!-- La persona encargada de los platillos preparacion -->
 <script src="<?php echo base_url();?>assets/template/dist/js/js_antigua/EncargadosAreas/ListasDePlatillosToEncargado.js"></script>
+
+
+
+
+<!--  JS DEL PROYECTO DE MR JOB 2022 -->
+<!-- 1.- Registro de usuarios para ingresar sistema -->
+<script src="<?php echo base_url();?>assets/template/dist/js/js_mrjob/RegistroUser/registro.js"></script>
+
+<script src="<?php echo base_url();?>assets/template/dist/js/js_mrjob/ContactoPrestadorServicio/chat_Pservicio.js"></script>
+
+
