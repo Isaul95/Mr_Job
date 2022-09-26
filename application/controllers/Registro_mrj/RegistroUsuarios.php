@@ -29,8 +29,9 @@ class RegistroUsuarios extends CI_Controller {
 
 
 	public function insert_registroUsuario(){
-
+		$unique_id = rand(time(), 100000000); // identificador randon
 			$ajax_data = $this->input->post();
+			$ajax_data['unico_id'] = $unique_id;
 			if ($this->Modelo_RegistroUsuarios->agregar_NuevoUsuarioToMrJob($ajax_data)) {
 				$data = array('responce' => 'success', 'message' => 'Nuevo usuario agregado exitosamente...!');
 			} else {

@@ -30,6 +30,9 @@
 
 <link rel="stylesheet" href="<?php echo base_url();?>assets/template/estilos/tabs.css">
 
+<!-- Diseño css del new tab del Dashboard... -->
+<link rel="stylesheet" href="<?php echo base_url();?>assets/template/estilos/tabsDashboard.css">
+
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.css" />

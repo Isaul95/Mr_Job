@@ -11,7 +11,7 @@ $(document).ready(function () {
 
   $(document).on("click", "#btn_registroUsuario", function(e) {
       e.preventDefault();
-
+      
 // Extrae fecha de registro
           var f = new Date();
           var yyyy = f.getFullYear();
@@ -47,7 +47,6 @@ var fechaActual = fecha+" "+hora;
 alert("hora: " + fechaActual);
 
     var datos = {
-        //ID_CLIENTE : 5,
         nombres : $("#registro_nombre").val(),
         apellido_paterno : $("#registro_apellidoPat").val(),
         apellido_materno : $("#registro_apellidoMat").val(),
@@ -55,6 +54,9 @@ alert("hora: " + fechaActual);
         email : $("#registro_email").val(),
         edad : $("#registro_edad").val(),
         password : $("#registro_pass").val(),
+        username : $("#registro_email").val(),
+        estado : 1,
+        rol_id : 1,
     //  VERIFI_CONTRASENIA : $("#registro_passRepeat").val(),
     //  fecha_registros : fechaActual,
       }
@@ -70,10 +72,7 @@ alert("hora: " + fechaActual);
               success: function(data) {
                   if (data.responce == "success") {
                       toastr["success"](data.message);
-                      // $("#addHoraSalida")[0].reset();
-                      // $('#modal_Add_HoraSalida').modal('hide');
-                      //   $("#tbl_RutasEntregaMobil").DataTable().destroy();
-                    	// 	llenarTablaRutasParaMobiliario();
+                      $("#frm_registro")[0].reset();
                   } else {
                       toastr["error"](data.message);
                   }

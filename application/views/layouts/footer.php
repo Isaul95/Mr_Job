@@ -44,6 +44,9 @@
 <!-- xxxxxxxxxxxx -->
 <!-- <script src="<?php echo base_url();?>assets/template/js/organictabs.jquery.js"></script> -->
 
+<!-- Js para el diseño del tab del dashboard...  -->
+<script src="<?php echo base_url();?>assets/template/dist/js/jsTabDashboard.js"></script>
+
 <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
 
 
