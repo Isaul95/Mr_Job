@@ -35,6 +35,21 @@
 
 
 
+
+<!-- Diseños para las pantallas front 16/10/2022 -->
+
+<link rel="stylesheet" href="<?php echo base_url();?>assets/template/estilos_Front_css/vista_01.css">
+<link rel="stylesheet" href="<?php echo base_url();?>assets/template/estilos_Front_css/vista_02.css">
+<link rel="stylesheet" href="<?php echo base_url();?>assets/template/estilos_Front_css/vista_03.css">
+<link rel="stylesheet" href="<?php echo base_url();?>assets/template/estilos_Front_css/vista_04.css">
+<link rel="stylesheet" href="<?php echo base_url();?>assets/template/estilos_Front_css/vista_05.css">
+<link rel="stylesheet" href="<?php echo base_url();?>assets/template/estilos_Front_css/vista_06.css">
+
+
+
+
+
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.css" />
     <!-- Toastr -->
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">

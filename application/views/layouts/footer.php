@@ -149,3 +149,13 @@ $('#btn_RegistroPago').DataTable( {
 <script src="<?php echo base_url();?>assets/template/dist/js/js_mrjob/ContactoPrestadorServicio/chat_Pservicio.js"></script>
 
 
+
+
+
+<!-- vistas del front mr job 2022  -->
+<script src="<?php echo base_url();?>assets/template/dist/js/js_mrjob/FrontJs/vista_01.js"></script>
+<script src="<?php echo base_url();?>assets/template/dist/js/js_mrjob/FrontJs/vista_02.js"></script>
+<script src="<?php echo base_url();?>assets/template/dist/js/js_mrjob/FrontJs/vista_03.js"></script>
+<script src="<?php echo base_url();?>assets/template/dist/js/js_mrjob/FrontJs/vista_04.js"></script>
+<script src="<?php echo base_url();?>assets/template/dist/js/js_mrjob/FrontJs/vista_05.js"></script>
+<script src="<?php echo base_url();?>assets/template/dist/js/js_mrjob/FrontJs/vista_06.js"></script>

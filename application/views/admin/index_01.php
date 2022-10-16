@@ -47,13 +47,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Project name</a>
+              <!--a class="navbar-brand" href="#">Project name</a-->
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <!--li><a href="#about">About</a></li-->
+                <!--li><a href="#contact">Contact</a></li-->
                 <li class="dropdown">
                   <a href="#" class="dropdown-menu dropdown-menu-lg dropdown-menu-right" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -67,6 +67,12 @@
                   </ul>
                 </li>
                 <li><a href="<?php echo base_url();?>Login/Iniciar_Sesion" class="right">Registro</a></li>
+                <li><a href="<?php echo base_url();?>PaginasFront/Pagina_01" class="right">Pagina #1</a></li>
+                <li><a href="<?php echo base_url();?>PaginasFront/Pagina_02" class="right">Pagina #2</a></li>
+                <li><a href="<?php echo base_url();?>PaginasFront/Pagina_03" class="right">Pagina #3</a></li>
+                <li><a href="<?php echo base_url();?>PaginasFront/Pagina_04" class="right">Pagina #4</a></li>
+                <li><a href="<?php echo base_url();?>PaginasFront/Pagina_05" class="right">Pagina #5</a></li>
+                <li><a href="<?php echo base_url();?>PaginasFront/Pagina_06" class="right">Pagina #6</a></li>
               </ul>
             </div>
           </div>
